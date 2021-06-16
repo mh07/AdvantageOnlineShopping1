@@ -17,4 +17,4 @@ rules:                                                        # List of the rule
     type: failureRate                                         # The transaction type.
     enabled: true                                             # Allows the user to enable or disable a specific rule.
     arguments:                                                # The arguments which a given type is expecting (one entry).
-      percentage: 3                                           # The percentage threshold above which the SLA rule will fail.
+      percentage: 25                                           # The percentage threshold above which the SLA rule will fail.
