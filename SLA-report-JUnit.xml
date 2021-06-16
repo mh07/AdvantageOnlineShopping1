@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="AdvantageOnlineShopping" tests="1" failures="1">
+        <testcase name="Percentage of Failed Transactions - 50% exceeded the defined amount of 3%">
+            <failure message="SLA &#34;Percentage of Failed Transactions&#34; failed." type="ERROR">The failing transactions ratio is 50%, exceeded the defined amount of 3%.</failure>
+        </testcase>
+    </testsuite>
+</testsuites>

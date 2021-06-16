@@ -9,13 +9,11 @@ rules:                                                        # List of the rule
     type: averageTRT                                          # The transaction type.
     enabled: true                                             # Allows the user to enable or disable a specific rule.
     arguments:                                                # The arguments which a given type is expecting (at least one entry).
-      - transactionName: AOS_landing_page
-      - transactionName: AOS_login
-      - transactionName: AOS_logout                               # The name of the transaction for which we want to calculate the average.
+      - transactionName: AOS_landing_page; AOS_login; AOS_logout                     # The name of the transaction for which we want to calculate the average.
         threshold:
           - averageTime: 1000                                 # The average time in milliseconds above which the SLA rule will fail.
   - rule: Percentage of Failed Transactions                   # The SLA rule measures the percentage of total failed transactions.
     type: failureRate                                         # The transaction type.
     enabled: true                                             # Allows the user to enable or disable a specific rule.
     arguments:                                                # The arguments which a given type is expecting (one entry).
-      percentage: 3                                           # The percentage threshold above which the SLA rule will fail.
+      percentage: 35                                           # The percentage threshold above which the SLA rule will fail.
