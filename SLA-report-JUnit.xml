@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="AdvantageOnlineShopping" tests="2" failures="1">
-        <testcase name="Transaction Response Time: AOS_login - average of 175 ms, exceeded the defined amount of 100 ms" time="0.175">
-            <failure message="SLA &#34;Transaction Response Time&#34; failed." type="ERROR">Transaction AOS_login, with an average of 175 ms, exceeded the defined amount of 100 ms.</failure>
+    <testsuite name="AdvantageOnlineShopping" tests="2" failures="2">
+        <testcase name="Transaction Response Time: AOS_landing_page - average of 1126 ms, exceeded the defined amount of 300 ms" time="1.126">
+            <failure message="SLA &#34;Transaction Response Time&#34; failed." type="ERROR">Transaction AOS_landing_page, with an average of 1126 ms, exceeded the defined amount of 300 ms.</failure>
         </testcase>
-        <testcase name="Percentage of Failed Transactions - 0% compared to the defined amount of 35%" systemOut="SLA &#34;Percentage of Failed Transactions&#34; passed.&#xA;The failing transactions ratio is 0%, compared to the defined amount of 35%."></testcase>
+        <testcase name="Percentage of Failed Transactions - 19% exceeded the defined amount of 3%">
+            <failure message="SLA &#34;Percentage of Failed Transactions&#34; failed." type="ERROR">The failing transactions ratio is 19%, exceeded the defined amount of 3%.</failure>
+        </testcase>
     </testsuite>
 </testsuites>
