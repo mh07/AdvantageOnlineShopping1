@@ -1,0 +1,47 @@
+[13:25:32.19] Info: Running build Release_2021.0.0_2004 on windows
+[13:25:32.19] Info: DevWeb offline generator started with 'har' mode, 'pages' level.
+[13:25:32.19] Info: Generating script from 'C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\examples\AdvantageOnlineShopping\proxyrecorded.har'.
+[13:25:32.19] Info: Using configuration file: C:\ProgramData\Micro Focus\LoadRunner\DevWeb\generator_config.yml.
+[13:25:32.22] Info: HAR file loaded, started parsing phase.
+[13:25:32.22] Info: Configured none resources list: [text/html text/xml text/plain application/json]
+[13:25:32.22] Info: Parsing done, loaded 22 steps from HAR.
+[13:25:32.22] Info: Configured headers to filter: [Host Content-Length Cookie]
+[13:25:32.22] Info: Configured hosts black list: [.*google.* .*bing.* .*geolocation.* .*gstatic.* .*firefox.*]
+[13:25:32.22] Info: Configured extensions to filter: [.ico]
+[13:25:32.23] Info: **********************************************
+[13:25:32.23] Info: WebRequest [Id: 1] GET 'http://www.advantageonlineshopping.com/'
+[13:25:32.23] Info: **********************************************
+[13:25:32.23] Info: WebRequest [Id: 2] GET 'http://www.advantageonlineshopping.com/services.properties'
+[13:25:32.23] Info: **********************************************
+[13:25:32.23] Info: WebRequest [Id: 3] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL'
+[13:25:32.23] Info: **********************************************
+[13:25:32.23] Info: WebRequest [Id: 4] POST 'http://www.advantageonlineshopping.com//accountservice/ws/GetAccountConfigurationRequest'
+[13:25:32.23] Info: **********************************************
+[13:25:32.23] Info: WebRequest [Id: 5] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories'
+[13:25:32.24] Info: **********************************************
+[13:25:32.24] Info: WebRequest [Id: 6] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/deals/search'
+[13:25:32.24] Info: **********************************************
+[13:25:32.24] Info: WebRequest [Id: 7] GET 'http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json'
+[13:25:32.24] Info: **********************************************
+[13:25:32.24] Info: WebRequest [Id: 8] GET 'http://www.advantageonlineshopping.com/app/views/home-page.html'
+[13:25:32.24] Info: **********************************************
+[13:25:32.24] Info: WebRequest [Id: 9] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products'
+[13:25:32.24] Info: **********************************************
+[13:25:32.24] Info: WebRequest [Id: 10] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/attributes'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 11] GET 'http://www.advantageonlineshopping.com/app/views/category-page.html'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 12] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 13] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/products/20'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 14] GET 'http://www.advantageonlineshopping.com/catalog/api/v1/categories/4/products'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 15] GET 'http://www.advantageonlineshopping.com/app/views/product-page.html'
+[13:25:32.25] Info: **********************************************
+[13:25:32.25] Info: WebRequest [Id: 16] GET 'http://www.advantageonlineshopping.com/app/order/views/user-not-login-page.html'
+[13:25:32.25] Info: Created 16 steps.
+[13:25:32.26] Info: scenario.yml already exists at 'C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\examples\AdvantageOnlineShopping' and will not be updated.
+[13:25:32.26] Info: rts.yml already exists at 'C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\examples\AdvantageOnlineShopping\rts.yml' and will not be updated.
+[13:25:32.26] Info: DevWeb script generated in folder 'C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\examples\AdvantageOnlineShopping'.
+[13:25:32.27] Info: Save input file as C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\examples\AdvantageOnlineShopping\codegen\codegen.har
