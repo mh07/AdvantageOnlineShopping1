@@ -1,6 +1,6 @@
 # All times are defined in seconds
-vusers: 5
+vusers: 10
 pacing: 5
 rampUp: 0
-duration: 30
+duration: 60
 tearDown: 0
